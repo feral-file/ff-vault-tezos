@@ -4,9 +4,9 @@ import (
 	"encoding/hex"
 	"math/big"
 
-	"blockwatch.cc/tzgo/contract"
-	"blockwatch.cc/tzgo/micheline"
-	tz "blockwatch.cc/tzgo/tezos"
+	"github.com/trilitech/tzgo/contract"
+	"github.com/trilitech/tzgo/micheline"
+	tz "github.com/trilitech/tzgo/tezos"
 
 	tezos "github.com/bitmark-inc/account-vault-tezos"
 )

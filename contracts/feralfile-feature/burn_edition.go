@@ -3,8 +3,8 @@ package feralfilefeature
 import (
 	"math/big"
 
-	"blockwatch.cc/tzgo/contract"
-	"blockwatch.cc/tzgo/micheline"
+	"github.com/trilitech/tzgo/contract"
+	"github.com/trilitech/tzgo/micheline"
 
 	tezos "github.com/bitmark-inc/account-vault-tezos"
 )

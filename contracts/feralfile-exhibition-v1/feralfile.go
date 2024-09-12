@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"blockwatch.cc/tzgo/contract"
-	tz "blockwatch.cc/tzgo/tezos"
+	"github.com/trilitech/tzgo/contract"
+	tz "github.com/trilitech/tzgo/tezos"
 
 	tezos "github.com/bitmark-inc/account-vault-tezos"
 	fff "github.com/bitmark-inc/account-vault-tezos/contracts/feralfile-feature"

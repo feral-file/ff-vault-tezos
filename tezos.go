@@ -9,12 +9,12 @@ import (
 
 	ed25519hd "github.com/bitmark-inc/go-ed25519-hd"
 
-	"blockwatch.cc/tzgo/codec"
-	"blockwatch.cc/tzgo/contract"
-	"blockwatch.cc/tzgo/micheline"
-	"blockwatch.cc/tzgo/rpc"
-	"blockwatch.cc/tzgo/signer"
-	"blockwatch.cc/tzgo/tezos"
+	"github.com/trilitech/tzgo/codec"
+	"github.com/trilitech/tzgo/contract"
+	"github.com/trilitech/tzgo/micheline"
+	"github.com/trilitech/tzgo/rpc"
+	"github.com/trilitech/tzgo/signer"
+	"github.com/trilitech/tzgo/tezos"
 )
 
 const (
@@ -291,7 +291,7 @@ func (w *Wallet) SimulateXTZTransferFee(txs []TransferXTZParam) (*int64, error) 
 		bufferFee = int64(1000)
 	}
 
-	op.WithLimits(sim.MinLimits(), rpc.GasSafetyMargin)
+	op.WithLimits(sim.MinLimits(), rpc.ExtraSafetyMargin)
 
 	c := sim.TotalCosts()
 	tc := c.Burn + op.Limits().Fee + bufferFee
@@ -350,7 +350,7 @@ func (w *Wallet) send(op *codec.Op, opts *rpc.CallOptions) (*string, error) {
 
 	// apply simulated cost as limits to tx list
 	if !opts.IgnoreLimits {
-		op.WithLimits(sim.MinLimits(), rpc.GasSafetyMargin)
+		op.WithLimits(sim.MinLimits(), rpc.ExtraSafetyMargin)
 	}
 
 	// check minFee calc against maxFee if set
