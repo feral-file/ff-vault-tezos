@@ -8,7 +8,7 @@ import (
 	tz "blockwatch.cc/tzgo/tezos"
 	"github.com/ethereum/go-ethereum/accounts/abi"
 
-	tezos "github.com/bitmark-inc/account-vault-tezos"
+	tezos "github.com/feral-file/ff-vault-tezos"
 )
 
 type RegisterArtworkParam struct {

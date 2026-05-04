@@ -1,11 +1,11 @@
-module github.com/bitmark-inc/account-vault-tezos
+module github.com/feral-file/ff-vault-tezos
 
 go 1.20
 
 require (
 	blockwatch.cc/tzgo v1.16.5
-	github.com/bitmark-inc/go-ed25519-hd v0.0.1
 	github.com/ethereum/go-ethereum v1.11.6
+	github.com/feral-file/go-ed25519-hd v1.0.0
 	github.com/stretchr/testify v1.8.0
 )
 

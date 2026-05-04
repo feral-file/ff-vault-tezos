@@ -7,7 +7,7 @@ import (
 	"math/big"
 	"time"
 
-	ed25519hd "github.com/bitmark-inc/go-ed25519-hd"
+	ed25519hd "github.com/feral-file/go-ed25519-hd"
 
 	"blockwatch.cc/tzgo/codec"
 	"blockwatch.cc/tzgo/contract"

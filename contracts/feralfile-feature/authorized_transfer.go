@@ -8,7 +8,7 @@ import (
 	"blockwatch.cc/tzgo/micheline"
 	tz "blockwatch.cc/tzgo/tezos"
 
-	tezos "github.com/bitmark-inc/account-vault-tezos"
+	tezos "github.com/feral-file/ff-vault-tezos"
 )
 
 type AuthTransferParam struct {

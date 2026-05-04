@@ -7,8 +7,8 @@ import (
 	"blockwatch.cc/tzgo/contract"
 	tz "blockwatch.cc/tzgo/tezos"
 
-	tezos "github.com/bitmark-inc/account-vault-tezos"
-	fff "github.com/bitmark-inc/account-vault-tezos/contracts/feralfile-feature"
+	tezos "github.com/feral-file/ff-vault-tezos"
+	fff "github.com/feral-file/ff-vault-tezos/contracts/feralfile-feature"
 )
 
 type FeralfileExhibitionV2Contract struct {

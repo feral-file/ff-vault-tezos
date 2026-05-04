@@ -6,7 +6,7 @@ import (
 	"blockwatch.cc/tzgo/contract"
 	"blockwatch.cc/tzgo/micheline"
 
-	tezos "github.com/bitmark-inc/account-vault-tezos"
+	tezos "github.com/feral-file/ff-vault-tezos"
 )
 
 type BurnEditionsParam string

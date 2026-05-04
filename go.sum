@@ -1,7 +1,5 @@
 blockwatch.cc/tzgo v1.16.5 h1:CYpjue28DsbPVae62hU/q2trHEYshplKT3Pv/1Z1A+M=
 blockwatch.cc/tzgo v1.16.5/go.mod h1:Bm3ZfCsqnJtpsAdwBQmhsoz4n8qc9qL4uJhsDoLArR8=
-github.com/bitmark-inc/go-ed25519-hd v0.0.1 h1:Yj0xdLcI2/l2kyID0FddK7Kim8KY3tVTAb49eOXHqjI=
-github.com/bitmark-inc/go-ed25519-hd v0.0.1/go.mod h1:+De/4EDsBxb+KzYN5sN0DBgyQZMS7A7G/WZtd0ReEnY=
 github.com/btcsuite/btcd/btcec/v2 v2.2.0 h1:fzn1qaOt32TuLjFlkzYSsBC35Q3KUjT1SwPxiMSCF5k=
 github.com/btcsuite/btcd/btcec/v2 v2.2.0/go.mod h1:U7MHm051Al6XmscBQ0BoNydpOTsFAn707034b5nY8zU=
 github.com/btcsuite/btcd/chaincfg/chainhash v1.0.1 h1:q0rUy8C/TYNBQS1+CGKw68tLOFYSNEs0TFnxxnS9+4U=
@@ -26,6 +24,8 @@ github.com/ethereum/go-ethereum v1.11.6 h1:2VF8Mf7XiSUfmoNOy3D+ocfl9Qu8baQBrCNbo
 github.com/ethereum/go-ethereum v1.11.6/go.mod h1:+a8pUj1tOyJ2RinsNQD4326YS+leSoKGiG/uVVb0x6Y=
 github.com/fatih/color v1.13.0 h1:8LOYc1KYPPmyKMuN8QV2DNRWNbLo6LZ0iLs8+mlH53w=
 github.com/fatih/color v1.13.0/go.mod h1:kLAiJbzzSOZDVNGyDpeOxJ47H46qBXwg5ILebYFFOfk=
+github.com/feral-file/go-ed25519-hd v1.0.0 h1:UxmuCgxJTHKDJhXZGK5pAm2kyJDQDsslrJb6px8zzpE=
+github.com/feral-file/go-ed25519-hd v1.0.0/go.mod h1:iqJLgSuhsx5R9KykgiAPg2cipi+vObXrXfXwoZvUEMY=
 github.com/holiman/uint256 v1.2.2-0.20230321075855-87b91420868c h1:DZfsyhDK1hnSS5lH8l+JggqzEleHteTYfutAiVlSUM8=
 github.com/holiman/uint256 v1.2.2-0.20230321075855-87b91420868c/go.mod h1:SC8Ryt4n+UBbPbIBKaG9zbbDlp4jOru9xFZmPzLUTxw=
 github.com/kr/pretty v0.3.1 h1:flRD4NNwYAUpkphVc1HcthR4KEIFJ65n8Mw5qdRn3LE=
